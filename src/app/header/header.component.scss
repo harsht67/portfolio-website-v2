@@ -1,0 +1,40 @@
+.header {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .logo {
+        font-weight: 600;
+        font-size: 2em;
+    }
+
+    .title {
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        font-weight: 500;
+        font-size: 0.85em;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .socials {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .menu__btn {
+        font-size: 1.5em;
+    }
+
+}

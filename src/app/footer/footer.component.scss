@@ -1,0 +1,52 @@
+.footer {
+    padding: 1rem 0;
+
+    .row-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            .logo {
+                font-weight: 600;
+                font-size: 2em;
+            }
+        
+            .title {
+                text-transform: uppercase;
+                letter-spacing: 0.15em;
+                font-weight: 500;
+                font-size: 0.85em;
+            }
+        }
+
+        .socials {
+            display: flex;
+            gap: 1rem;
+        }
+    
+    }
+
+    .credit {
+        margin-block-start: 0.5rem;
+        text-align: center;
+        font-size: 0.75em;
+        letter-spacing: 0.05em;
+        color: #bcbcbc;
+
+        span {
+            color: #fff;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        span:hover {
+            text-decoration: underline;
+        }
+
+    }
+
+}

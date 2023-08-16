@@ -1,0 +1,78 @@
+.about {
+    padding: 0 8rem;
+
+    .title {
+        font-size: 3.5rem;
+        margin-block: 4rem;
+    }
+
+    .intro {
+        display: flex;
+        gap: 2rem;
+        margin-block-end: 4rem;
+
+        .intro__text {
+            width: 40%;
+            padding: 2rem 0;
+            font-size: 0.95em;
+            line-height: 1.75em;
+        }
+
+        .intro__img {
+            width: 60%;
+            background-color: teal;
+            height: 600px;
+        }
+
+    }
+
+    .education {
+        margin-block-end: 4rem;
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+
+        .subtitle {
+            font-size: 2rem;
+            font-weight: 400;
+        }
+
+        .line {
+            height: 220px;
+            width: 0;
+            border: 1px solid #fff;
+            position: relative;
+        }
+
+        .education__block {
+            font-size: 0.9em;
+            line-height: 1.75em;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            width: 500px;
+            position: absolute;
+            left: -0.4rem;
+
+            p:last-child {
+                color: #d4d4d4;
+            }
+            
+            span {
+                font-weight: 400;
+            }
+
+        }
+
+        #ed1 {
+            top: 15%;
+        }
+
+        #ed2 {
+            bottom: 15%;
+        }
+
+    }
+
+}
